@@ -1,0 +1,42 @@
+<nav id="site-nav" class="navbar navbar-expand-sm navbar-dark bg-dark"
+   role="navigation" aria-label="Main navigation">
+
+   <div class="container">
+       <!-- No brand/logo -->
+       <button class="navbar-toggler" type="button"
+           data-bs-toggle="collapse"
+           data-bs-target="#nav"
+           aria-controls="nav"
+           aria-expanded="false"
+           aria-label="Toggle navigation">
+
+           <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <!--this is where my navigation link are -->
+       <div id="nav" class="collapse navbar-collapse">
+           <div class="navbar-nav gap-3"> <!-- this when you want home and about and other to appear horizotal when you put div class="navbar-nav flex-row gap-3 home and horizotal and other will show oriztal but whe you remove only the flex-row and it will be vertically  -->
+            <!--my links here in other way I can say that flex-row → makes the links horizontal.
+Removing flex-row → allows the links to stack vertically.also flex-row = arrange the navigation links horizontally.
+Without flex-row = the links can stack vertically depending on
+the Bootstrap navbar's responsive behavior. -->
+            <!--my links here -->
+               <a class="nav-link" href="index.html">Home</a>
+               <a class="nav-link" href="about.html">About</a>
+               <a class="nav-link" href="project.html">Project</a>
+               <a class="nav-link" href="books.html">Books</a>
+               <a class="nav-link" href="galary.html">Gallery</a>
+
+               <!-- Sections on the Home page --> 
+               <a class="nav-link" href="index.html#skills">Skills</a>
+               <a class="nav-link" href="index.html#education">Education</a>
+               <a class="nav-link" href="index.html#future">Future</a>
+               <a class="nav-link" href="index.html#contact">contact me </a>
+
+           </div>
+       </div>
+   </div>
+</nav>
+
+
+
