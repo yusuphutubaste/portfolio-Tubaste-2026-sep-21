@@ -88,34 +88,8 @@ body {
 }
 
 
-/* ---------- Section Titles ---------- */
-
-#skills h2,
-#education h2,
-#future h2,
-#contact h2 {
-    color: #ffffff;
-    font-weight: 700;
-}
-
-#skills h2::after,
-#education h2::after,
-#future h2::after,
-#contact h2::after {
-    content: "";
-    display: block;
-
-    width: 45px;
-    height: 3px;
-
-    background-color: #3b82f6;
-
-    margin-top: 10px;
-
-    border-radius: 3px;
-}
-
-
+/* ---------- Smooth Scrolling ---------- */ 
+html { scroll-behavior: smooth; } /* Adds a little space when jumping to sections */ #skills, #education, #future, #contact { scroll-margin-top: 30px; }
 /* ---------- Cards ---------- */
 
 .card {
